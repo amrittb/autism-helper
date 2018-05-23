@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#FFFFFF</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#98df88</color>
+    <!-- dots active colors -->
+    <color name="dot_active">#e9246107</color>
+
+</resources>

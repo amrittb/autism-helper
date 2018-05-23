@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_activity_guide"
+        android:id="@+id/select_contact_textview"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="@string/select_contact_button"
+        android:layout_below="@+id/select_contact_textview"
+        android:layout_alignLeft="@+id/select_contact_textview"
+        android:layout_alignStart="@+id/select_contact_textview"
+        android:layout_marginTop="20dp"
+        android:onClick="onButton1Click" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/textview1"
+        android:text="@string/no_contact_selected_textview"
+        android:layout_toRightOf="@id/button1"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="@string/select_contact_button"
+        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:onClick="onButton2Click" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/textview2"
+        android:text="@string/no_contact_selected_textview"
+        android:layout_below="@+id/textview1"
+        android:layout_alignLeft="@+id/textview1"
+        android:layout_alignBaseline="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="@string/select_contact_button"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:onClick="onButton3Click" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/textview3"
+        android:text="@string/no_contact_selected_textview"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textview2"
+        android:layout_alignLeft="@+id/textview2"
+        android:layout_alignBaseline="@+id/button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:text="@string/select_contact_button"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:onClick="onButton4Click" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/textview4"
+        android:text="@string/no_contact_selected_textview"
+        android:layout_below="@+id/textview3"
+        android:layout_alignLeft="@+id/textview3"
+        android:layout_alignBaseline="@+id/button4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:text="@string/select_contact_button"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:onClick="onButton5Click" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/textview5"
+        android:text="@string/no_contact_selected_textview"
+        android:layout_below="@+id/textview4"
+        android:layout_alignLeft="@+id/textview4"
+        android:layout_alignBaseline="@+id/button5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_and_proceed_button"
+        android:id="@+id/save_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="onSaveButtonClick"
+        style="@style/my_wide_buttons"/>
+
+</RelativeLayout>
