@@ -1,13 +1,9 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-/**
- * Created by Arash Nase on 1/11/2017.
- * Pager Adapter for Welcome Screen
- */
 public class PagerAdapterWelcomeScreen extends FragmentPagerAdapter {
 
     private static final int NUM_FRAGMENTS = 2;      // Number of pages

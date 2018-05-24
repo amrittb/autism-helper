@@ -1,4 +1,4 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,10 +9,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by Jeff To on 4/21/2016.
- * Modified by Arash Nase on 1/8/2017
- */
 public class ArrayContactAdapter extends ArrayAdapter<Contact> {
 
     public ArrayContactAdapter(Context context, int resource, List<Contact> objects) {

@@ -1,4 +1,4 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
 import android.content.Context;
 import android.net.Uri;
@@ -15,10 +15,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-
 /**
- * Created by Jeff To 4/17/2016
- * Modified by Arash Nase 1/8/2017
  * Child fragment of EmojiGridFragment, in which the user chooses the emoji to send
  * TODO: can you move sending sms to the background? Is it better?
  * TODO: when there is no contact, send button does not work at all!

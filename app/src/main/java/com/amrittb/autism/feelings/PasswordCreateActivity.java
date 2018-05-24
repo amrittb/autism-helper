@@ -1,4 +1,4 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,10 +10,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 /**
- * Created by David Nguyen on 4/20/2016.
  * Background work to storage the pin number when first register
  *
- * Modified by Arash
  * Changed it in manifast so that no activity could go back to it by pressing back button
  */
 

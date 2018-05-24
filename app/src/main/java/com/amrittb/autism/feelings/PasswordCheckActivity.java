@@ -1,4 +1,4 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,15 +10,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
 /**
- * Created by Arash Nase on 4/22/2016.
  * Activity to check if the user is permitted before letting him/her enter setting mode
  *
  * Note: In order for the activity to be killed right before starting the SettingActivity, added
  * android:noHistory="true" to AndroidManifest definition of the activity
  */
-
 
 public class PasswordCheckActivity extends AppCompatActivity {
 

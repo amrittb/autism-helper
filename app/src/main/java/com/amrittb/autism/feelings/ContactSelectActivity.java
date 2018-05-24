@@ -1,8 +1,6 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -15,8 +13,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * Created by Arash Nase on 4/15/2016.
- * The actvity where users add/remove contacts to the database
+ * The activity where users add/remove contacts to the database
  * of people the app should send text to
  *
  * TODO: design it in a way that database only gets updated onces Save button is clicked, not everytime Select Contact is clicked.

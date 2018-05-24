@@ -1,5 +1,4 @@
-package com.ashl7developer.autism.feelings;
-
+package com.amrittb.autism.feelings;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,10 +13,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-
 /**
  * A simple {@link Fragment} subclass.
- * Created by Arash Nase
  * Second slide of welcome screen
  */
 public class WelcomeSlide2Fragment extends Fragment {
@@ -25,7 +22,6 @@ public class WelcomeSlide2Fragment extends Fragment {
     private TextView leftDot;
     private TextView rightDot;
     private Button startButton;
-
 
     public WelcomeSlide2Fragment() {
         // Required empty public constructor
@@ -35,7 +31,6 @@ public class WelcomeSlide2Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         Log.d(TAG, "in slide2Fragment");
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_welcome_slide2, container, false);

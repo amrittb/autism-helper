@@ -1,18 +1,10 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-
-/**
- * Created by Arash Nase on 4/21/2016.
- *
- */
-
 
 public class SettingActivity extends AppCompatActivity {
     @Override

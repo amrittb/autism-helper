@@ -1,5 +1,4 @@
-package com.ashl7developer.autism.feelings;
-
+package com.amrittb.autism.feelings;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,13 +11,6 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-
-/**
- * A simple {@link Fragment} subclass.
- * Created by Arash Nase
- * Fragment that the child uses to select which contacts send sms too
- * Sibling of EmojiGridFragment, contained in MainActivityPager
- */
 public class ContactChecklistFragment extends Fragment {
 
     private static final String TAG = ContactChecklistFragment.class.getName();

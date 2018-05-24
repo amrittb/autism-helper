@@ -1,4 +1,4 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,9 +9,6 @@ import android.widget.ImageView;
 
 import java.util.List;
 
-/**
- * Created by Jeff To on 4/21/2016.
- */
 public class ArrayEmojiAdapter extends ArrayAdapter<Emoji> {
 
     public ArrayEmojiAdapter(Context context, int resource, List<Emoji> objects) {

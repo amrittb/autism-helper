@@ -1,14 +1,10 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-/**
- * Created by Arash Nase on 4/17/2016.
- * SQLite Database for saving contacts
- */
 public class ContactDatabaseHelper extends SQLiteOpenHelper  {
 
     private static final String TAG = ContactDatabaseHelper.class.getName();

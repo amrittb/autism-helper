@@ -1,9 +1,5 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
-/**
- * Created by Arash Nase on 4/17/2016.
- * Class representing a contact
- */
 public class Contact {
 
     private String number;

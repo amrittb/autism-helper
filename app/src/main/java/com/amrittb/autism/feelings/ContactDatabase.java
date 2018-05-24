@@ -1,4 +1,4 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,12 +9,6 @@ import android.util.Log;
 
 import java.util.ArrayList;
 
-
-/**
- * Created by Arash Nase on 4/17/2016.
- * Modified on 1/7/2017
- * It maintains the database connection and supports adding/removing/getting contacts from database.
- */
 public class ContactDatabase {
 
     private static final String TAG = ContactDatabase.class.getName();

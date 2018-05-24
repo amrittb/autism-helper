@@ -1,25 +1,17 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
 
 /*
-* Created by Arash Nase 1/11/2017
 * Welcome screen that comes up the first time app is launched
 * TODO: fix orientations
 */

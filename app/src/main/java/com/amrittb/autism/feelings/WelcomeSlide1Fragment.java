@@ -1,5 +1,4 @@
-package com.ashl7developer.autism.feelings;
-
+package com.amrittb.autism.feelings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -13,10 +12,8 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
-
 /**
  * A simple {@link Fragment} subclass.
- * Created by Arash Nase
  * First slide of welcome screen
  */
 public class WelcomeSlide1Fragment extends Fragment {

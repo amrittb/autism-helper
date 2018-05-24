@@ -1,14 +1,9 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-/**
- * Created by Arash Nase on 1/9/2017.
- * This adapter will keep track of which tab is currently selected
- * and loads or returns the right fragment.
- */
 public class PagerAdapterMainActivity extends FragmentPagerAdapter {
 
     private static final int NUM_FRAGMENTS = 2;      // Number of tabs

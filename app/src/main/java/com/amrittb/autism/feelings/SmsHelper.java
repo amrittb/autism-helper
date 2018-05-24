@@ -1,4 +1,4 @@
-package com.ashl7developer.autism.feelings;
+package com.amrittb.autism.feelings;
 
 import android.Manifest;
 import android.app.Activity;
@@ -10,9 +10,6 @@ import android.support.v4.content.ContextCompat;
 import android.telephony.SmsManager;
 import android.widget.Toast;
 
-/**
- * Created by Jeff To on 4/18/2016.
- */
 public class SmsHelper {
 
     public static boolean hasSmsPermission(Context c) {
