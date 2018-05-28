@@ -1,6 +1,7 @@
 package com.amrittb.autism.feelings;
 
 import android.content.pm.PackageManager;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
@@ -23,11 +24,9 @@ public class EmojiGridFragment extends Fragment
     private ArrayList<Emoji> emojiList;
     private GridView emojiGridView;
 
-
     public EmojiGridFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -52,6 +51,10 @@ public class EmojiGridFragment extends Fragment
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     Emoji e = (Emoji)parent.getItemAtPosition(position);
+
+                    MediaPlayer mediaPlayer = MediaPlayer.create(parent.getContext(), e.getAudioRes());
+                    mediaPlayer.start();
+
                     showSendTextDialog(e);
                 }
             });
