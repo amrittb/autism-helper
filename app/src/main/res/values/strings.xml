@@ -53,5 +53,6 @@
     </string>
 
     <string name="start_up">Get Started</string>
+    <string name="button_cancel">Cancel</string>
 
 </resources>

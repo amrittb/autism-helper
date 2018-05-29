@@ -40,6 +40,7 @@ public class SendTextFragment extends DialogFragment {
     private ListView contactsListView;
 
     private ArrayList<Contact> contactList;
+    private Button cancelButton;
 
     public SendTextFragment() {
         // Required empty public constructor
@@ -82,6 +83,7 @@ public class SendTextFragment extends DialogFragment {
         View view = inflater.inflate(R.layout.fragment_send_text, container, false);
 
         sendButton = (Button)view.findViewById(R.id.send_button);
+        cancelButton = (Button) view.findViewById(R.id.cancel_button);
         emojiName = (TextView)view.findViewById(R.id.emojy_name_textview);
         emojiPicture = (ImageView)view.findViewById(R.id.emoji_image_view);
         contactsListView = (ListView)view.findViewById(R.id.contacts_listview);
@@ -99,6 +101,14 @@ public class SendTextFragment extends DialogFragment {
                 for(Contact contact: contactList)
                     sendSms(contact.getNumber());
                 Toast.makeText(getContext(), "Sent", Toast.LENGTH_LONG).show(); //sent shown once
+            }
+        });
+
+        cancelButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                dismiss();
             }
         });
 
