@@ -23,7 +23,7 @@
     <string name="save_and_proceed_button">Save and Proceed</string>
     <string name="no_contact_selected_textview">No Contact is Selected</string>
     <string name="enter_password_textview">Enter Password</string>
-    <string name="create_password_textview">Create Password</string>
+    <string name="save_password_instructions">Use a password to block access to settings by other users.</string>
     <string name="setting_textview">Setting</string>
     <string name="back_home_button">Back to Home</string>
     <string name="edit_pin_button">Edit Password</string>
@@ -37,22 +37,21 @@
 
     <string name="slide1_title">Easier Communication for Autistic Children</string>
     <string name="slide1_desc">
-        Feelings makes communication between your child and you easier.\n\n
-        When your child has a tough time expressing his feelings,
-        he may select an emoji representing his emotion on Feelings,
-        and a text will be sent to you or anyone in Feelings\' contact list.
+        Express your feelings makes communication between your child and you easier.\n\n
+        When your child has a tough time expressing his emotions, feelings and needs.\n\n
+        Every emoji will have their respective speech for which they will be aware of their feelings and learn about their emotions more and a text is sent to you or anyone in contact list selected in the app.
     </string>
 
     <string name="slide2_title">How To Use</string>
     <string name="slide2_desc">
-        \tTo set up the app for your child, firstly choose a password for the app.
-         This is to prevent the child from accessing the Settings and manipulating the app\'s data.\n
-        \tSecondly, select the contacts you wish the texts to be sent to.
-        You may select up to 5 different contacts.\n
-        \tThen Feelings will be ready to be used by your child. You may change password or contacts in the Setting if you need to.\n
+        1. You have to choose a password at first which will prevent your child from accessing the setting which can manipulate app data.\n\n
+        2. After that select the contacts that you wish the text to be sent. You can set up to 5 different contacts.\n\n
+        3. Finally, Express your feelings app is ready to be used by your child. You can change Password or Contacts in the setting if you need.
     </string>
 
     <string name="start_up">Get Started</string>
     <string name="button_cancel">Cancel</string>
+    <string name="enter_password">Enter a password</string>
+    <string name="enter_password_settings">Enter your password to change your settings.</string>
 
 </resources>

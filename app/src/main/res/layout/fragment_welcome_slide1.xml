@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ashl7developer.autism.feelings.WelcomeSlide1Fragment">
+    tools:context="com.amrittb.autism.feelings.WelcomeSlide1Fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -26,9 +26,10 @@
         android:layout_marginTop="40dp"
         android:textSize="18sp"
         android:layout_below="@+id/title"
-        android:gravity="center_horizontal"
+        android:gravity="left"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="20dp"
+        tools:ignore="RtlCompat" />
 
     <TextView
         android:layout_width="wrap_content"
